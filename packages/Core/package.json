@@ -1,0 +1,14 @@
+{
+  "name": "@mindless/core",
+  "version": "1.0.0",
+  "description": "Agnostic Core utilities for mindless components",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Should be set\"",
+    "test": "echo \"Should be set\"",
+    "lint": "echo \"Should be set\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

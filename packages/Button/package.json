@@ -1,0 +1,34 @@
+{
+  "name": "@mindless/button.react",
+  "version": "0.1.0",
+  "description": "Mindless UI: Button component for React",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "/lib",
+    "lib/**"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && rollup -c",
+    "build:watch": "rm -rf lib && rollup -c --watch",
+    "test": "echo \"Should be set\"",
+    "lint": "echo \"Should be set\""
+  },
+  "keywords": [
+    "@mindless/button.react",
+    "react",
+    "typescript",
+    "react-library",
+    "button"
+  ],
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  },
+  "author": "Ivan Avila",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivelaval/mindless-ui"
+  }
+}

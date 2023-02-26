@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "declarationDir": "lib",
+    "baseUrl": "src",
+    "outDir": "lib",
+    "declaration": true,
+    "strict": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true,
+    "skipDefaultLibCheck": true,
+  },
+}
