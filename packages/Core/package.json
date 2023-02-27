@@ -1,7 +1,7 @@
 {
-  "name": "@mindless/core",
+  "name": "@mindful/core",
   "version": "1.0.0",
-  "description": "Agnostic Core utilities for mindless components",
+  "description": "Agnostic Core utilities for mindful components",
   "main": "index.js",
   "scripts": {
     "build": "echo \"Should be set\"",

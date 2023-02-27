@@ -25,8 +25,6 @@ importers:
       sass: ^1.58.3
       tslib: ^2.5.0
       typescript: ^4.9.5
-    dependencies:
-      dotenv-cli: 7.0.0
     devDependencies:
       '@rollup/plugin-commonjs': 24.0.1_rollup@3.17.2
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.17.2
@@ -34,6 +32,7 @@ importers:
       '@rollup/plugin-typescript': 11.0.0_xfpw33j3x77vb3zt44uxqu5fey
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
+      dotenv-cli: 7.0.0
       husky: 8.0.3
       lint-staged: 13.1.2
       node-sass: 8.0.0
@@ -54,7 +53,7 @@ importers:
       '@chakra-ui/react': ^2.5.1
       '@emotion/react': ^11.10.6
       '@emotion/styled': ^11.10.6
-      '@mindless/button.react': workspace:^0.1.0
+      '@mindful/button.react': workspace:^0.1.0
       '@types/node': 18.14.1
       '@types/react': ^18.0.28
       '@types/react-dom': ^18.0.11
@@ -69,7 +68,7 @@ importers:
       '@chakra-ui/react': 2.5.1_isq5fwmdijsyj6vg3voyx5axqe
       '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
       '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
-      '@mindless/button.react': link:../../packages/Button
+      '@mindful/button.react': link:../../packages/Button
       '@types/node': 18.14.1
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -88,6 +87,9 @@ importers:
       tsconfig: link:../tsconfig
 
   packages/Core:
+    specifiers: {}
+
+  packages/tsconfig:
     specifiers: {}
 
 packages:
@@ -2643,17 +2645,17 @@ packages:
       dotenv: 16.0.3
       dotenv-expand: 10.0.0
       minimist: 1.2.8
-    dev: false
+    dev: true
 
   /dotenv-expand/10.0.0:
     resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
-    dev: false
+    dev: true
 
   /dotenv/16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
-    dev: false
+    dev: true
 
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -4190,7 +4192,6 @@ packages:
 
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
-    dev: false
 
   /minipass-collect/1.0.2:
     resolution: {integrity: sha512-6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==}

@@ -1,7 +1,7 @@
 {
-  "name": "@mindless/button.react",
+  "name": "@mindful/button.react",
   "version": "0.1.0",
-  "description": "Mindless UI: Button component for React",
+  "description": "Mindful UI: Button component for React",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -16,7 +16,7 @@
     "lint": "echo \"Should be set\""
   },
   "keywords": [
-    "@mindless/button.react",
+    "@mindful/button.react",
     "react",
     "typescript",
     "react-library",
@@ -29,6 +29,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivelaval/mindless-ui"
+    "url": "https://github.com/ivelaval/mindful-ui"
   }
 }

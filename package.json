@@ -2,10 +2,10 @@
   "private": true,
   "name": "root",
   "version": "0.0.0",
-  "description": "Mindless UI",
+  "description": "Mindful UI",
   "scripts": {
     "build": "turbo run build",
-    "build:packages": "turbo run build --filter='@mindless/*'",
+    "build:packages": "turbo run build --filter='@mindful/*'",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivelaval/mindless-ui"
+    "url": "https://github.com/ivelaval/mindful-ui"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
@@ -34,6 +34,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "dotenv-cli": "^7.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "node-sass": "^8.0.0",
@@ -59,8 +60,5 @@
     "*.json": [
       "prettier --write"
     ]
-  },
-  "dependencies": {
-    "dotenv-cli": "^7.0.0"
   }
 }
