@@ -6,9 +6,10 @@
   "scripts": {
     "build": "turbo run build",
     "build:packages": "turbo run build --filter='@mindful/*'",
-    "dev": "turbo run dev",
+    "dev": "dotenv -- turbo run dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install"
   },

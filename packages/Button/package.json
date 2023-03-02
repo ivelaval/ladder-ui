@@ -13,7 +13,8 @@
     "build": "rm -rf lib && rollup -c",
     "build:watch": "rm -rf lib && rollup -c --watch",
     "test": "echo \"Should be set\"",
-    "lint": "echo \"Should be set\""
+    "test:watch": "echo \"Should be set\"",
+    "lint": "tsc"
   },
   "keywords": [
     "@mindful/button.react",
