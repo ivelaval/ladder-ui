@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface IButton {
-    children: any;
+  children: React.ReactElement;
 }

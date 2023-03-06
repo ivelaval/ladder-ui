@@ -7,9 +7,10 @@
     "build": "turbo run build",
     "build:packages": "turbo run build --filter='@mindful/*'",
     "dev": "dotenv -- turbo run dev",
-    "lint": "turbo run lint",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install"
   },
@@ -29,6 +30,9 @@
     "url": "https://github.com/ivelaval/mindful-ui"
   },
   "devDependencies": {
+    "@mindful/eslint-config": "workspace:*",
+    "@mindful/prettier-config": "workspace:*",
+    "@mindful/tsconfig": "workspace:*",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
@@ -36,6 +40,9 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "dotenv-cli": "^7.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "node-sass": "^8.0.0",
@@ -49,17 +56,15 @@
     "rollup-plugin-visualizer": "^5.9.0",
     "sass": "^1.58.3",
     "tslib": "^2.5.0",
+    "turbo": "^1.8.3",
     "typescript": "^4.9.5"
   },
   "lint-staged": {
     "apps/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
+      "eslint"
     ],
     "packages/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
-    ],
-    "*.json": [
-      "prettier --write"
+      "eslint"
     ]
   }
 }

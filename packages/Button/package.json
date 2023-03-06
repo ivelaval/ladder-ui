@@ -14,7 +14,9 @@
     "build:watch": "rm -rf lib && rollup -c --watch",
     "test": "echo \"Should be set\"",
     "test:watch": "echo \"Should be set\"",
-    "lint": "tsc"
+    "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
+    "lint:fix": "eslint *.ts{,x} --fix",
+    "format": "prettier --write"
   },
   "keywords": [
     "@mindful/button.react",
@@ -23,13 +25,13 @@
     "react-library",
     "button"
   ],
-  "devDependencies": {
-    "tsconfig": "workspace:*"
-  },
   "author": "Ivan Avila",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ivelaval/mindful-ui"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }

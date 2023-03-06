@@ -13,7 +13,6 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
     "skipDefaultLibCheck": true
   },
   "exclude": ["node_modules"]
