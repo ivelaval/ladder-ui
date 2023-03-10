@@ -3,13 +3,16 @@
   "display": "React Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["ES2015"],
+    "lib": ["es5", "es6", "dom"],
     "target": "es5",
     "moduleResolution": "node",
     "jsx": "react-jsx",
     "module": "ESNext",
     "declarationDir": "lib",
     "baseUrl": "src",
-    "outDir": "lib"
-  }
+    "outDir": "lib",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "jest", "@testing-library/jest-dom"]
+  },
+  "include": ["**/*.d.ts", "**/*.tsx", "**/*.ts"]
 }

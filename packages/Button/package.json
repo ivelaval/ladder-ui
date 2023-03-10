@@ -6,17 +6,18 @@
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "/lib",
-    "lib/**"
+    "lib",
+    "LICENSE",
+    "README.md"
   ],
   "scripts": {
     "build": "rm -rf lib && rollup -c",
     "build:watch": "rm -rf lib && rollup -c --watch",
-    "test": "echo \"Should be set\"",
-    "test:watch": "echo \"Should be set\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
-    "lint:fix": "eslint *.ts{,x} --fix",
-    "format": "prettier --write"
+    "lint:fix": "eslint *.ts{,x} --fix"
   },
   "keywords": [
     "@mindful/button.react",
@@ -25,13 +26,22 @@
     "react-library",
     "button"
   ],
-  "author": "Ivan Avila",
+  "author": "Ivan Avila (ivelavalm)",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ivelaval/mindful-ui"
   },
+  "bugs": {
+    "url": "https://github.com/ivelaval/mindful-ui/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
   "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.1",
     "typescript": "^4.9.5"
   }
 }

@@ -1,14 +1,47 @@
 {
   "name": "@mindful/core",
-  "version": "1.0.0",
-  "description": "Agnostic Core utilities for mindful components",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Mindful UI: Core utilities",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "echo \"Should be set\"",
+    "build:watch": "echo \"Should be set\"",
     "test": "echo \"Should be set\"",
-    "lint": "echo \"Should be set\""
+    "test:watch": "echo \"Should be set\"",
+    "test:coverage": "echo \"Should be set\"",
+    "lint": "echo \"Should be set\"",
+    "lint:fix": "echo \"Should be set\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "@mindful/core",
+    "react",
+    "typescript",
+    "react-library",
+    "button"
+  ],
+  "author": "Ivan Avila (ivelavalm)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivelaval/mindful-ui"
+  },
+  "bugs": {
+    "url": "https://github.com/ivelaval/mindful-ui/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.1",
+    "typescript": "^4.9.5"
+  }
 }

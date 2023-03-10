@@ -1,0 +1,16 @@
+{
+  "name": "@mindful/rollup-config",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No needed here\"",
+    "build": "echo \"No needed here\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
