@@ -32,11 +32,12 @@
     "url": "https://github.com/ivelaval/mindful-ui"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@mindful/eslint-config": "workspace:*",
     "@mindful/jest-config": "workspace:*",
     "@mindful/prettier-config": "workspace:*",
-    "@mindful/tsconfig": "workspace:*",
     "@mindful/rollup-config": "workspace:*",
+    "@mindful/tsconfig": "workspace:*",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
