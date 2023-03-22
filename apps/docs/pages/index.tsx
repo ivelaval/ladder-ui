@@ -1,7 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Home.module.scss';
+
+import '@mindful/button.react/lib/Button.variables.css';
+import '@mindful/button.react/lib/Button.css';
 import Button from '@mindful/button.react';
 
 const inter = Inter({ subsets: ['latin'] });

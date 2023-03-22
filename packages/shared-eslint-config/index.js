@@ -12,7 +12,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: [],
-  ignorePatterns: ['**/node_modules/*', '**/lib/*', "*.config.js"],
+  ignorePatterns: ['**/node_modules/*', '**/lib/*', "*.config.js", ".storybook", "*.stories.tsx"],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',

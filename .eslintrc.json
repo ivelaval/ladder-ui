@@ -1,4 +1,7 @@
 {
   "root": true,
-  "extends": ["@mindful/eslint-config"]
+  "extends": [
+    "@mindful/eslint-config",
+    "plugin:storybook/recommended"
+  ]
 }

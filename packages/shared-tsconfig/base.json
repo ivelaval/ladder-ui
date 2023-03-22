@@ -4,7 +4,6 @@
   "compilerOptions": {
     "declaration": true,
     "strict": true,
-    "sourceMap": true,
     "strictNullChecks": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -14,5 +13,5 @@
     "allowSyntheticDefaultImports": true,
     "skipDefaultLibCheck": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.spec.tsx", "**/*.stories.tsx", "**/*.stories.ts"]
 }

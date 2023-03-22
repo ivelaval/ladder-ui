@@ -1,26 +1,27 @@
 {
-  "name": "@mindful/button.react",
-  "version": "0.1.1",
-  "description": "Mindful UI: Button component for React",
+  "name": "@mindful/cli",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mindful UI: cli",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "lib/**",
+    "lib",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
-    "build": "rm -rf lib && sass --no-source-map --style=compressed src:lib && rollup -c",
-    "build:watch": "rm -rf lib && rollup -c --watch",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
-    "lint:fix": "eslint *.ts{,x} --fix"
+    "build": "echo \"Should be set\"",
+    "build:watch": "echo \"Should be set\"",
+    "test": "echo \"Should be set\"",
+    "test:watch": "echo \"Should be set\"",
+    "test:coverage": "echo \"Should be set\"",
+    "lint": "echo \"Should be set\"",
+    "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "@mindful/button.react",
+    "@mindful/cli",
     "react",
     "typescript",
     "react-library",
