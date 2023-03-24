@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "root",
+  "name": "@mindful/root",
   "version": "0.0.0",
   "description": "Mindful UI",
   "scripts": {
@@ -31,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivelaval/mindful-ui"
+    "url": "git+https://github.com/ivelaval/mindful-ui.git"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
@@ -85,5 +85,26 @@
     "packages/**/*.{js,ts,jsx,tsx}": [
       "eslint"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/ivelaval/mindful-ui/issues"
+  },
+  "homepage": "https://github.com/ivelaval/mindful-ui#readme",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-next": "^13.2.0",
+    "eslint-config-turbo": "^0.0.10",
+    "eslint-import-resolver-node": "^0.3.7",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-module-utils": "^2.7.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-turbo": "^0.0.10",
+    "eslint-scope": "^7.1.1",
+    "eslint-utils": "^3.0.0",
+    "eslint-visitor-keys": "^3.3.0",
+    "prettier-linter-helpers": "^1.0.0"
   }
 }
