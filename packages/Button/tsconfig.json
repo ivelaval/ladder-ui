@@ -1,5 +1,5 @@
 {
-  "extends": "@mindful/tsconfig/react-library.json",
+  "extends": "@mindfului/tsconfig/react-library.json",
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"],
 }

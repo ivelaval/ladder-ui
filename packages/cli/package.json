@@ -1,5 +1,5 @@
 {
-  "name": "@mindful/cli",
+  "name": "@mindfului/cli",
   "version": "0.1.0",
   "private": true,
   "description": "Mindful UI: cli",
@@ -21,7 +21,7 @@
     "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "@mindful/cli",
+    "@mindfului/cli",
     "react",
     "typescript",
     "react-library",

@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import '@mindful/button.react/lib/Button.variables.css';
-import '@mindful/button.react/lib/Button.css';
-import Button, { IButton } from '@mindful/button.react';
+import '@mindfului/button.react/lib/Button.variables.css';
+import '@mindfului/button.react/lib/Button.css';
+import Button, { IButton } from '@mindfului/button.react';
 
 const meta = {
-  title: '@mindful/Button',
+  title: '@mindfului/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {},

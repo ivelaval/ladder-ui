@@ -1,6 +1,6 @@
 # Mindful UI
 
-### **@mindful/button.react**
+### **@mindfului/button.react**
 
 Button component for React apps
 

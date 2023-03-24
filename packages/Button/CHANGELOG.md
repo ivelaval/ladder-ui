@@ -1,4 +1,4 @@
-# @mindful/button.react
+# @mindfului/button.react
 
 ## 0.1.1
 

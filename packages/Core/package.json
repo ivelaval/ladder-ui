@@ -1,5 +1,5 @@
 {
-  "name": "@mindful/core",
+  "name": "@mindfului/core",
   "version": "0.1.1",
   "private": true,
   "description": "Mindful UI: Core utilities",
@@ -21,7 +21,7 @@
     "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "@mindful/core",
+    "@mindfului/core",
     "react",
     "typescript",
     "react-library",

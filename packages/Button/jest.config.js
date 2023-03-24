@@ -1,4 +1,4 @@
-const config = require('@mindful/jest-config');
+const config = require('@mindfului/jest-config');
 
 module.exports = {
     ...config,

@@ -5,4 +5,4 @@
 ### Patch Changes
 
 - Updated dependencies [98fa1ec]
-  - @mindful/button.react@0.1.1
+  - @mindfului/button.react@0.1.1

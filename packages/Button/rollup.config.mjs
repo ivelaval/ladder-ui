@@ -1,5 +1,5 @@
-import commonRollupConfig from "@mindful/rollup-config/index.mjs";
-import commonRollupPlugins from "@mindful/rollup-config/plugins.mjs";
+import commonRollupConfig from "@mindfului/rollup-config/index.mjs";
+import commonRollupPlugins from "@mindfului/rollup-config/plugins.mjs";
 import postcss from "rollup-plugin-postcss";
 
 export default [
