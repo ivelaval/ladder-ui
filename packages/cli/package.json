@@ -1,7 +1,7 @@
 {
   "name": "@mindful/cli",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "Mindful UI: cli",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
