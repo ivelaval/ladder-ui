@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import '@mindfului/button.react/lib/Button.variables.css';
-import '@mindfului/button.react/lib/Button.css';
-import Button, { IButton } from '@mindfului/button.react';
+import '@ladder-ui/button.react/lib/Button.variables.css';
+import '@ladder-ui/button.react/lib/Button.css';
+import Button, { IButton } from '@ladder-ui/button.react';
 
 const meta = {
-  title: '@mindfului/Button',
+  title: '@ladder-ui/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {},

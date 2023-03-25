@@ -3,9 +3,9 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.scss';
 
-import '@mindfului/button.react/lib/Button.variables.css';
-import '@mindfului/button.react/lib/Button.css';
-import Button from '@mindfului/button.react';
+import '@ladder-ui/button.react/lib/Button.variables.css';
+import '@ladder-ui/button.react/lib/Button.css';
+import Button from '@ladder-ui/button.react';
 
 const inter = Inter({ subsets: ['latin'] });
 

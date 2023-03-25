@@ -1,4 +1,4 @@
-const config = require('@mindfului/jest-config');
+const config = require('@ladder-ui/jest-config');
 
 module.exports = {
     ...config,

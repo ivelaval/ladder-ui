@@ -5,4 +5,4 @@
 ### Patch Changes
 
 - Updated dependencies [98fa1ec]
-  - @mindfului/button.react@0.1.1
+  - @ladder-ui/button.react@0.1.1

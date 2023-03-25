@@ -1,6 +1,7 @@
-import commonRollupConfig from "@mindfului/rollup-config/index.mjs";
-import commonRollupPlugins from "@mindfului/rollup-config/plugins.mjs";
+import commonRollupConfig from "@ladder-ui/rollup-config/index.mjs";
+import commonRollupPlugins from "@ladder-ui/rollup-config/plugins.mjs";
 import postcss from "rollup-plugin-postcss";
+import path from 'path';
 
 export default [
     {

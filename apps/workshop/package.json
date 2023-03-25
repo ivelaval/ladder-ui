@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@mindfului/button.react": "workspace:*"
+    "@ladder-ui/button.react": "workspace:*"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0-rc.5",

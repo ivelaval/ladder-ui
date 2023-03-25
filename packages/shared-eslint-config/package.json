@@ -1,5 +1,5 @@
 {
-  "name": "@mindfului/eslint-config",
+  "name": "@ladder-ui/eslint-config",
   "version": "0.0.0",
   "private": true,
   "main": "index.js",

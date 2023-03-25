@@ -1,8 +1,8 @@
 {
-  "name": "@mindfului/core",
+  "name": "@ladder-ui/core",
   "version": "0.1.1",
   "private": true,
-  "description": "Mindful UI: Core utilities",
+  "description": "ladder UI: Core utilities",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -21,7 +21,7 @@
     "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "@mindfului/core",
+    "@ladder-ui/core",
     "react",
     "typescript",
     "react-library",
@@ -31,10 +31,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivelaval/mindful-ui"
+    "url": "https://github.com/ivelaval/ladder-ui"
   },
   "bugs": {
-    "url": "https://github.com/ivelaval/mindful-ui/issues"
+    "url": "https://github.com/ivelaval/ladder-ui/issues"
   },
   "peerDependencies": {
     "react": ">=16",

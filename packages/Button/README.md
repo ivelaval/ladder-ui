@@ -1,6 +1,6 @@
-# Mindful UI
+# ladder UI
 
-### **@mindfului/button.react**
+### **@ladder-ui/button.react**
 
 Button component for React apps
 

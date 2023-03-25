@@ -15,7 +15,7 @@ export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
    */
   label?: string;
   /**
-   * Active default class fof buttons in @mindful/ui
+   * Active default class fof buttons in @ladder/ui
    */
   activateLibraryClasses?: boolean;
   /**

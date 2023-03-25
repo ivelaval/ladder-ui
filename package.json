@@ -1,13 +1,13 @@
 {
   "private": true,
-  "name": "@mindfului/root",
+  "name": "@ladder-ui/root",
   "version": "0.0.0",
-  "description": "Mindful UI",
+  "description": "ladder UI",
   "scripts": {
     "build": "turbo run build",
-    "build:packages": "turbo run build --filter='@mindfului/*'",
+    "build:packages": "turbo run build --filter='@ladder-ui/*'",
     "dev": "dotenv -- turbo run dev",
-    "publish:packages": "turbo run build lint test && changeset version && changeset publish --filter='@mindfului/*'",
+    "publish:packages": "turbo run build lint test && changeset version && changeset publish --filter='@ladder-ui/*'",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
     "test:coverage": "turbo run test:coverage",
@@ -31,15 +31,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivelaval/mindful-ui.git"
+    "url": "git+https://github.com/ivelaval/ladder-ui.git"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
-    "@mindfului/eslint-config": "workspace:*",
-    "@mindfului/jest-config": "workspace:*",
-    "@mindfului/prettier-config": "workspace:*",
-    "@mindfului/rollup-config": "workspace:*",
-    "@mindfului/tsconfig": "workspace:*",
+    "@ladder-ui/eslint-config": "workspace:*",
+    "@ladder-ui/jest-config": "workspace:*",
+    "@ladder-ui/prettier-config": "workspace:*",
+    "@ladder-ui/rollup-config": "workspace:*",
+    "@ladder-ui/tsconfig": "workspace:*",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
@@ -87,9 +87,9 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/ivelaval/mindful-ui/issues"
+    "url": "https://github.com/ivelaval/ladder-ui/issues"
   },
-  "homepage": "https://github.com/ivelaval/mindful-ui#readme",
+  "homepage": "https://github.com/ivelaval/ladder-ui#readme",
   "main": "index.js",
   "dependencies": {
     "eslint-config-next": "^13.2.0",

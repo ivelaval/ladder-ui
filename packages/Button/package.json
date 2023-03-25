@@ -1,7 +1,7 @@
 {
-  "name": "@mindfului/button.react",
+  "name": "@ladder-ui/button.react",
   "version": "0.1.1",
-  "description": "Mindful UI: Button component for React",
+  "description": "ladder UI: Button component for React",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -20,7 +20,7 @@
     "lint:fix": "eslint *.ts{,x} --fix"
   },
   "keywords": [
-    "@mindfului/button.react",
+    "@ladder-ui/button.react",
     "react",
     "typescript",
     "react-library",
@@ -30,10 +30,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivelaval/mindful-ui"
+    "url": "https://github.com/ivelaval/ladder-ui"
   },
   "bugs": {
-    "url": "https://github.com/ivelaval/mindful-ui/issues"
+    "url": "https://github.com/ivelaval/ladder-ui/issues"
   },
   "peerDependencies": {
     "react": ">=16",
