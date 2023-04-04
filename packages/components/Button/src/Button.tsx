@@ -1,6 +1,5 @@
 import { ComponentPropsWithoutRef, MouseEvent } from 'react';
 import concatClassNames from '@ladder-ui/utils/lib/concatClassNames';
-import './Button.scss';
 
 export type TButtonVariants = 'natural' | 'no-border' | 'as-link' | 'outline';
 
@@ -10,15 +9,15 @@ export interface IButton extends ComponentPropsWithoutRef<'button'> {
 }
 
 export default function Button({
-  children,
-  className,
-  style,
-  activateLibraryClasses = true,
-  id,
-  look = 'natural',
-  onClick,
-  ...props
-}: IButton) {
+                                 children,
+                                 className,
+                                 style,
+                                 activateLibraryClasses = true,
+                                 id,
+                                 look = 'natural',
+                                 onClick,
+                                 ...props
+                               }: IButton) {
   const componentBaseClass = 'lui-button';
   const handleClick = (e: MouseEvent<HTMLButtonElement>) => {
     onClick?.(e);

@@ -3,6 +3,10 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.scss';
 
+import '@ladder-ui/button.react/lib/Button.variables.css';
+import '@ladder-ui/button.react/lib/Button.css';
+import { Button } from '@ladder-ui/button.react';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -17,7 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            <button>Hello world from Button</button>
+            <Button>Hello world from Button</Button>
           </p>
           <div>
             <a

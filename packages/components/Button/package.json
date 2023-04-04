@@ -11,7 +11,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "rm -rf lib && sass --no-source-map --style=compressed src:lib && rollup -c",
+    "build": "rm -rf lib && tsup src --dts && sass --no-source-map --style=compressed styles:lib",
     "build:watch": "rm -rf lib && rollup -c --watch",
     "test": "echo 'should be set'",
     "test:watch": "echo 'should be set'",
