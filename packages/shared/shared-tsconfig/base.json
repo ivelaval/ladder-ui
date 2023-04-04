@@ -13,5 +13,5 @@
     "allowSyntheticDefaultImports": true,
     "skipDefaultLibCheck": true
   },
-  "exclude": ["node_modules", "src/**/*.spec.ts", "src/**/*.spec.tsx", "src/**/*.stories.tsx", "src/**/*.stories.ts"]
+  "exclude": ["src/**/*.spec.ts", "src/**/*.spec.tsx", "src/**/*.stories.tsx", "src/**/*.stories.ts"]
 }

@@ -1,4 +1,4 @@
-# @ladder/core
+# @ladder/utils
 
 ## 0.1.1
 

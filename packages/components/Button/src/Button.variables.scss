@@ -1,0 +1,25 @@
+@import "variables";
+
+[data-theme="default"] {
+  --button-background-color: #{$button-background-color};
+  --button-hover-background-color: #{$button-hover-background-color};
+  --button-padding: #{$button-padding};
+  --button-foreground-color: #{$button-foreground-color};
+
+  --button-border-radius: #{$button-border-radius};
+  --button-border-color: #{$button-border-color};
+  --button-border-style: #{$button-border-style};
+  --button-border-width: #{$button-border-width};
+}
+
+[data-theme="blue"] {
+  --button-background-color: blue;
+  --button-hover-background-color: #{$button-hover-background-color};
+  --button-padding: #{$button-padding};
+  --button-foreground-color: #{$button-foreground-color};
+
+  --button-border-radius: #{$button-border-radius};
+  --button-border-color: #{$button-border-color};
+  --button-border-style: #{$button-border-style};
+  --button-border-width: #{$button-border-width};
+}

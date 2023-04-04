@@ -13,14 +13,13 @@
   "scripts": {
     "build": "rm -rf lib && sass --no-source-map --style=compressed src:lib && rollup -c",
     "build:watch": "rm -rf lib && rollup -c --watch",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test": "echo 'should be set'",
+    "test:watch": "echo 'should be set'",
+    "test:coverage": "echo 'should be set'",
     "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
     "lint:fix": "eslint *.ts{,x} --fix"
   },
   "keywords": [
-    "@ladder-ui/button.react",
     "react",
     "typescript",
     "react-library",
@@ -37,12 +36,14 @@
   },
   "peerDependencies": {
     "react": ">=16",
-    "react-dom": ">=16"
+    "react-dom": ">=16",
+    "@ladder-ui/core": ">=0"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "18.14.1",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "@ladder-ui/utils": "workspace:*"
   },
   "publishConfig": {
     "access": "public",

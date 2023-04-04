@@ -4,7 +4,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import terser from "@rollup/plugin-terser";
 import typescript from "@rollup/plugin-typescript";
-import { visualizer } from "rollup-plugin-visualizer";
+import analyze from 'rollup-plugin-analyzer'
 
 export default [
     peerDepsExternal(),
@@ -17,8 +17,5 @@ export default [
     commonjs(),
     terser(),
     typescript(),
-    visualizer({
-        filename: 'bundle-analysis.html',
-        open: false,
-    }),
+    analyze(),
 ];

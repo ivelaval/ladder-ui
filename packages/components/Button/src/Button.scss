@@ -1,0 +1,44 @@
+@import "variables";
+
+.lui-button {
+  padding: var(--button-padding, $button-padding);
+  cursor: pointer;
+  border-radius: var(--button-border-radius, $button-border-radius);
+  background-color: var(--button-background-color, $button-background-color);
+  border-color: var(--button-border-color, $button-border-color);
+  border-style: var(--button-border-style, $button-border-style);
+  border-width: var(--button-border-width, $button-border-width);
+  color: var(--button-foreground-color, $button-foreground-color);
+
+  &.lui-button--natural {
+    &:hover {
+      background: var(--button-hover-background-color, $button-hover-background-color);
+    }
+  }
+
+  &.lui-button--outline {
+    background: none;
+
+    &:hover {
+      background: var(--button-hover-background-color, $button-hover-background-color);
+    }
+  }
+
+  &.lui-button--no-border {
+    border: none;
+
+    &:hover {
+      background: var(--button-hover-background-color, $button-hover-background-color);
+    }
+  }
+
+  &.lui-button--as-link {
+    background: none;
+    border: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}

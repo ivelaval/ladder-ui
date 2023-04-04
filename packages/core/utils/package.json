@@ -1,19 +1,15 @@
 {
-  "name": "@ladder-ui/core",
+  "name": "@ladder-ui/utils",
   "version": "0.1.1",
-  "private": true,
-  "description": "ladder UI: Core utilities",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "description": "ladder UI Core",
   "files": [
     "lib",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
-    "build": "echo \"Should be set\"",
-    "build:watch": "echo \"Should be set\"",
+    "build": "rm -rf lib && rollup -c",
+    "build:watch": "rm -rf lib && rollup -c --watch",
     "test": "echo \"Should be set\"",
     "test:watch": "echo \"Should be set\"",
     "test:coverage": "echo \"Should be set\"",
@@ -21,7 +17,7 @@
     "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "@ladder-ui/core",
+    "@ladder-ui/utils",
     "react",
     "typescript",
     "react-library",
@@ -43,6 +39,6 @@
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "18.14.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.3"
   }
 }
