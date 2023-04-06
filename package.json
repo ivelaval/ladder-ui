@@ -38,7 +38,7 @@
     "@ladder-ui/eslint-config": "workspace:*",
     "@ladder-ui/jest-config": "workspace:*",
     "@ladder-ui/prettier-config": "workspace:*",
-    "@ladder-ui/rollup-config": "workspace:*",
+    "@ladder-ui/tsup-config": "workspace:*",
     "@ladder-ui/tsconfig": "workspace:*",
     "@ladder-ui/utils": "workspace:*",
     "@testing-library/jest-dom": "^5.16.5",

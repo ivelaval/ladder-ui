@@ -1,17 +1,8 @@
 import type { Options } from 'tsup';
+import sharedConfig from '@ladder-ui/tsup-config';
 
 const config: Options = {
-  entryPoints: ['src/index.ts'],
-  entry: ['src/*.tsx', 'src/*.ts'],
-  outDir: 'lib',
-  clean: true,
-  dts: true,
-  splitting: true,
-  sourcemap: true,
-  format: ['cjs', 'esm'],
-  minify: true,
-  bundle: true,
-  treeshake: true,
+  ...sharedConfig,
 };
 
 export default config;

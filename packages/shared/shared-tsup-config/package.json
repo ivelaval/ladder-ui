@@ -1,9 +1,9 @@
 {
-  "name": "@ladder-ui/rollup-config",
+  "name": "@ladder-ui/tsup-config",
   "version": "0.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"No needed here\"",
     "build": "echo \"No needed here\""

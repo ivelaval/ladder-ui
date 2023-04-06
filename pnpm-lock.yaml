@@ -12,8 +12,8 @@ importers:
       '@ladder-ui/eslint-config': workspace:*
       '@ladder-ui/jest-config': workspace:*
       '@ladder-ui/prettier-config': workspace:*
-      '@ladder-ui/rollup-config': workspace:*
       '@ladder-ui/tsconfig': workspace:*
+      '@ladder-ui/tsup-config': workspace:*
       '@ladder-ui/utils': workspace:*
       '@testing-library/jest-dom': ^5.16.5
       '@testing-library/react': ^14.0.0
@@ -64,8 +64,8 @@ importers:
       '@ladder-ui/eslint-config': link:packages/shared/shared-eslint-config
       '@ladder-ui/jest-config': link:packages/shared/shared-jest-config
       '@ladder-ui/prettier-config': link:packages/shared/shared-prettier-config
-      '@ladder-ui/rollup-config': link:packages/shared/shared-rollup-config
       '@ladder-ui/tsconfig': link:packages/shared/shared-tsconfig
+      '@ladder-ui/tsup-config': link:packages/shared/shared-tsup-config
       '@ladder-ui/utils': link:packages/core/utils
       '@testing-library/jest-dom': 5.16.5
       '@testing-library/react': 14.0.0_biqbaboplfbrettd7655fr4n2y
@@ -254,10 +254,10 @@ importers:
   packages/shared/shared-prettier-config:
     specifiers: {}
 
-  packages/shared/shared-rollup-config:
+  packages/shared/shared-tsconfig:
     specifiers: {}
 
-  packages/shared/shared-tsconfig:
+  packages/shared/shared-tsup-config:
     specifiers: {}
 
 packages:
