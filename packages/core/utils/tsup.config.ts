@@ -3,8 +3,7 @@ import type { Options } from 'tsup';
 const config: Options = {
   entryPoints: ['src/index.ts'],
   entry: [
-    'src/*.tsx',
-    'src/*.ts'
+    'src/**/*.ts',
   ],
   outDir: 'lib',
   clean: true,
@@ -14,6 +13,8 @@ const config: Options = {
   format: ['cjs', 'esm'],
   minify: true,
   bundle: true,
+  skipNodeModulesBundle: true,
+  target: 'es2020',
   treeshake: true,
 }
 

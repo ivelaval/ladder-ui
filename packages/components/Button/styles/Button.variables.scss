@@ -1,6 +1,6 @@
 @import "variables";
 
-[data-theme="default"] {
+:root, [data-theme="default"] {
   --button-background-color: #{$button-background-color};
   --button-hover-background-color: #{$button-hover-background-color};
   --button-padding: #{$button-padding};

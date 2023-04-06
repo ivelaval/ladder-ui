@@ -26,16 +26,16 @@ export default function Button({
   return (
     <button
       id={id}
-      onClick={handleClick}
-      className={concatClassNames([
-        activateLibraryClasses ? componentBaseClass : '',
-        className as string,
-        `${componentBaseClass}--${look}`,
-      ])}
-      style={style}
-      {...props}
-    >
-      {children}
-    </button>
-  );
+  onClick={handleClick}
+  className={concatClassNames([
+                                activateLibraryClasses ? componentBaseClass : '',
+                                className as string,
+                                `${componentBaseClass}--${look}`,
+                              ])}
+  style={style}
+  {...props}
+>
+  {children} Hay!
+  </button>
+);
 }

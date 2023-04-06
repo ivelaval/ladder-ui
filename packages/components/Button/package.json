@@ -2,17 +2,26 @@
   "name": "@ladder-ui/button.react",
   "version": "0.1.1",
   "description": "ladder UI: Button component for React",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
   "files": [
     "lib/**",
     "LICENSE",
     "README.md"
   ],
+  "sideEffects": [
+    "lib/**",
+    "*.css"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "rm -rf lib && tsup src --dts && sass --no-source-map --style=compressed styles:lib",
-    "build:watch": "rm -rf lib && rollup -c --watch",
+    "build:watch": "rm -rf lib && tsup src --dts --watch",
     "test": "echo 'should be set'",
     "test:watch": "echo 'should be set'",
     "test:coverage": "echo 'should be set'",
@@ -35,18 +44,14 @@
     "url": "https://github.com/ivelaval/ladder-ui/issues"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "react-dom": ">=16",
-    "@ladder-ui/core": ">=0"
+    "react": ">=18",
+    "react-dom": ">=18",
+    "@ladder-ui/utils": ">=0"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "18.14.1",
     "typescript": "^4.9.5",
     "@ladder-ui/utils": "workspace:*"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }

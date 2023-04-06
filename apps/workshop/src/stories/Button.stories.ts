@@ -1,8 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import '@ladder-ui/button.react/lib/Button.variables.css';
 import './styles/overwrite.css';
+
+import '@ladder-ui/button.react/lib/Button.variables.css';
 import '@ladder-ui/button.react/lib/Button.css';
-import Button, { IButton } from '@ladder-ui/button.react';
+import Button, { IButton } from '@ladder-ui/button.react/lib/Button';
 
 const meta = {
   title: '@ladder-ui/Button',
@@ -11,6 +12,7 @@ const meta = {
   argTypes: {
     look: {
       options: ['natural', 'no-border', 'as-link', 'outline'],
+      defaultValue: 'natural',
       control: {
         type: 'select',
       },
@@ -24,7 +26,6 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     activateLibraryClasses: true,
-    label: 'label',
     children: 'Hello world',
     className: '',
     look: 'as-link',
