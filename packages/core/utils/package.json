@@ -3,9 +3,7 @@
   "version": "0.1.1",
   "description": "ladder UI Utils",
   "main": "lib/index.js",
-  "module": "lib/index.cjs",
-  "types": "lib/index.d.ts",
-  "type": "module",
+  "module": "lib/index.js",
   "files": [
     "lib/**",
     "LICENSE",
@@ -20,8 +18,8 @@
     "test": "echo \"Should be set\"",
     "test:watch": "echo \"Should be set\"",
     "test:coverage": "echo \"Should be set\"",
-    "lint": "echo \"Should be set\"",
-    "lint:fix": "echo \"Should be set\""
+    "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
+    "lint:fix": "eslint *.ts{,x} --fix"
   },
   "keywords": [
     "react",
@@ -37,10 +35,6 @@
   },
   "bugs": {
     "url": "https://github.com/ivelaval/ladder-ui/issues"
-  },
-  "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",

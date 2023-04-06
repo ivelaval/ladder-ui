@@ -2,10 +2,7 @@ import type { Options } from 'tsup';
 
 const config: Options = {
   entryPoints: ['src/index.ts'],
-  entry: [
-    'src/*.tsx',
-    'src/*.ts'
-  ],
+  entry: ['src/*.tsx', 'src/*.ts'],
   outDir: 'lib',
   clean: true,
   dts: true,
@@ -15,6 +12,6 @@ const config: Options = {
   minify: true,
   bundle: true,
   treeshake: true,
-}
+};
 
-export default config
+export default config;
