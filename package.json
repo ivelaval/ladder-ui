@@ -9,6 +9,7 @@
     "dev": "dotenv -- turbo run dev",
     "packages:publish": "turbo run build lint test --filter='@ladder-ui/*' && changeset version && changeset publish --filter='@ladder-ui/*'",
     "packages:version": "turbo run build lint test --filter='@ladder-ui/*' && changeset version --filter='@ladder-ui/*'",
+    "packages:status": "changeset status --filter='@ladder-ui/*'",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
     "test:coverage": "turbo run test:coverage",
