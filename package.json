@@ -1,6 +1,6 @@
 {
-  "private": true,
   "name": "@ladder-ui/root",
+  "private": true,
   "version": "0.0.0",
   "description": "ladder UI",
   "scripts": {
