@@ -1,3 +1,5 @@
+import '@ladder-ui/css/lib/base.css';
+
 import '@/styles/globals.css';
 
 import type { AppProps } from 'next/app';

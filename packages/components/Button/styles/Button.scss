@@ -1,18 +1,18 @@
-@import "variables";
-
 .lui-button {
-  padding: var(--button-padding, $button-padding);
   cursor: pointer;
-  border-radius: var(--button-border-radius, $button-border-radius);
-  background-color: var(--button-background-color, $button-background-color);
-  border-color: var(--button-border-color, $button-border-color);
-  border-style: var(--button-border-style, $button-border-style);
-  border-width: var(--button-border-width, $button-border-width);
-  color: var(--button-foreground-color, $button-foreground-color);
+  font-size: var(--button-font-size, var(--font-size, 1em));
+  font-family: var(--button-font-family, var(--font-family, "Arial, Helvetica, sans-serif"));
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-background-color);
+  border-color: var(--button-border-color);
+  border-style: var(--button-border-style);
+  border-width: var(--button-border-width);
+  color: var(--button-foreground-color);
 
   &.lui-button--natural {
     &:hover {
-      background: var(--button-hover-background-color, $button-hover-background-color);
+      background: var(--button-hover-background-color);
     }
   }
 
@@ -20,7 +20,7 @@
     background: none;
 
     &:hover {
-      background: var(--button-hover-background-color, $button-hover-background-color);
+      background: var(--button-hover-background-color);
     }
   }
 
@@ -28,7 +28,7 @@
     border: none;
 
     &:hover {
-      background: var(--button-hover-background-color, $button-hover-background-color);
+      background: var(--button-hover-background-color);
     }
   }
 

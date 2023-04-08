@@ -1,25 +1,13 @@
-@import "variables";
-
 :root, [data-theme="default"] {
-  --button-background-color: #{$button-background-color};
-  --button-hover-background-color: #{$button-hover-background-color};
-  --button-padding: #{$button-padding};
-  --button-foreground-color: #{$button-foreground-color};
+  --button-font-family: Arial, Helvetica, sans-serif;
+  --button-font-size: 1em;
+  --button-background-color: hsl(0, 0%, 81%);
+  --button-hover-background-color: hsl(0, 0%, 58%);
+  --button-padding: 1em 2em;
+  --button-foreground-color: hsl(0, 0%, 0%);;
 
-  --button-border-radius: #{$button-border-radius};
-  --button-border-color: #{$button-border-color};
-  --button-border-style: #{$button-border-style};
-  --button-border-width: #{$button-border-width};
-}
-
-[data-theme="blue"] {
-  --button-background-color: blue;
-  --button-hover-background-color: #{$button-hover-background-color};
-  --button-padding: #{$button-padding};
-  --button-foreground-color: #{$button-foreground-color};
-
-  --button-border-radius: #{$button-border-radius};
-  --button-border-color: #{$button-border-color};
-  --button-border-style: #{$button-border-style};
-  --button-border-width: #{$button-border-width};
+  --button-border-radius: 0.5em;
+  --button-border-color: hsl(0, 0%, 53%);
+  --button-border-style: solid;
+  --button-border-width: 0.150em;
 }

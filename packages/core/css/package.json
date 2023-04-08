@@ -1,0 +1,41 @@
+{
+  "name": "@ladder-ui/css",
+  "version": "0.1.1",
+  "description": "ladder UI: CSS util classes",
+  "files": [
+    "lib/**",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": [
+    "lib/**",
+    "*.css"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "rm -rf lib && sass --no-source-map --style=compressed src:lib",
+    "build:watch": "rm -rf lib && sass --no-source-map src:lib --watch",
+    "lint": "echo 'Should be set a sass linter'",
+    "lint:fix": "echo 'Should be set a sass linter to fix'"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "react-library",
+    "button"
+  ],
+  "author": "Ivan Avila (ivelavalm)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivelaval/ladder-ui"
+  },
+  "bugs": {
+    "url": "https://github.com/ivelaval/ladder-ui/issues"
+  },
+  "peerDependencies": {},
+  "devDependencies": {}
+}

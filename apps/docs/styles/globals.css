@@ -87,6 +87,7 @@ body {
 }
 
 body {
+  font-family: 'Alkatra', cursive;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
