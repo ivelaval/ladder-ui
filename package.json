@@ -1,5 +1,5 @@
 {
-  "name": "@ladder-ui/root",
+  "name": "root",
   "private": true,
   "version": "0.0.0",
   "description": "ladder UI",
@@ -7,16 +7,15 @@
     "build": "turbo run build",
     "build:packages": "turbo run build --filter='@ladder-ui/*'",
     "dev": "dotenv -- turbo run dev",
-    "publish:packages": "turbo run build lint test && changeset version && changeset publish --filter='@ladder-ui/*'",
+    "packages:publish": "turbo run build lint test --filter='@ladder-ui/*' && changeset version && changeset publish --filter='@ladder-ui/*'",
+    "packages:version": "turbo run build lint test --filter='@ladder-ui/*' && changeset version --filter='@ladder-ui/*'",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
     "test:coverage": "turbo run test:coverage",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky install",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "prepare": "husky install"
   },
   "keywords": [
     "react",
