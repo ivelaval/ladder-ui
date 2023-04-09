@@ -1,5 +1,11 @@
 # @ladder-ui/cli
 
+## 0.1.2
+
+### Patch Changes
+
+- efc2ff9: Initial publishing for new packages of ladder UI
+
 ## 0.1.1
 
 ### Patch Changes

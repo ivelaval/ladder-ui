@@ -1,9 +1,8 @@
 {
   "name": "@ladder-ui/cli",
-  "version": "0.1.1",
-  "private": true,
+  "version": "0.1.2",
   "description": "ladder UI cli",
-  "main": "./lib/cjs/index.js",
+  "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -17,13 +16,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "echo \"Should be set\"",
-    "build:watch": "echo \"Should be set\"",
+    "build": "rm -rf lib && tsup src --dts",
+    "build:watch": "rm -rf lib && tsup src --dts --watch",
     "test": "echo \"Should be set\"",
     "test:watch": "echo \"Should be set\"",
     "test:coverage": "echo \"Should be set\"",
-    "lint": "echo \"Should be set\"",
-    "lint:fix": "echo \"Should be set\""
+    "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
+    "lint:fix": "eslint *.ts{,x} --fix"
   },
   "keywords": [
     "react",
