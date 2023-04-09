@@ -31,6 +31,7 @@ export default function Button({
       onClick={handleClick}
       className={concatClassNames([
         activateLibraryClasses ? componentBaseClass : '',
+        fluid ? 'fluid' : '',
         className as string,
         `${componentBaseClass}--${look}`,
       ])}
