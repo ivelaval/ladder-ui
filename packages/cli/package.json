@@ -2,7 +2,7 @@
   "name": "@ladder-ui/cli",
   "version": "0.1.0",
   "private": true,
-  "description": "ladder UI: cli",
+  "description": "ladder UI cli",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -11,6 +11,10 @@
     "LICENSE",
     "README.md"
   ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "echo \"Should be set\"",
     "build:watch": "echo \"Should be set\"",
@@ -21,7 +25,6 @@
     "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "@ladder-ui/cli",
     "react",
     "typescript",
     "react-library",

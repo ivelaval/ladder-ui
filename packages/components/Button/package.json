@@ -10,13 +10,9 @@
     "LICENSE",
     "README.md"
   ],
-  "sideEffects": [
-    "lib/**",
-    "*.css"
-  ],
+  "sideEffects": false,
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   },
   "scripts": {
     "build": "rm -rf lib && tsup src --dts && sass --no-source-map --style=compressed styles:lib",

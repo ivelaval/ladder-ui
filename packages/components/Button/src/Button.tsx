@@ -6,6 +6,7 @@ export type TButtonVariants = 'natural' | 'no-border' | 'as-link' | 'outline';
 export interface IButton extends ComponentPropsWithoutRef<'button'> {
   activateLibraryClasses?: boolean;
   look?: TButtonVariants;
+  fluid?: boolean;
 }
 
 export default function Button({
@@ -13,6 +14,7 @@ export default function Button({
   className,
   style,
   activateLibraryClasses = true,
+  fluid = false,
   id,
   look = 'natural',
   onClick,
