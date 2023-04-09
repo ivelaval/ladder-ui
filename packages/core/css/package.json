@@ -1,16 +1,13 @@
 {
   "name": "@ladder-ui/css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ladder UI: CSS util classes",
   "files": [
     "lib/**",
     "LICENSE",
     "README.md"
   ],
-  "sideEffects": [
-    "lib/**",
-    "*.css"
-  ],
+  "sideEffects": false,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
