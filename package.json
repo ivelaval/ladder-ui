@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "ladder-ui",
   "private": true,
   "version": "0.0.0",
   "description": "ladder UI",
@@ -23,24 +23,25 @@
     "typescript",
     "react-library"
   ],
-  "author": "Ivan Avila",
+  "author": "Ivan Avila <ivelaval@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "packages/*",
-    "apps/*"
+    "packages/**",
+    "apps/**"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivelaval/ladder-ui.git"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.0",
     "@ladder-ui/eslint-config": "workspace:*",
     "@ladder-ui/jest-config": "workspace:*",
     "@ladder-ui/prettier-config": "workspace:*",
     "@ladder-ui/tsup-config": "workspace:*",
     "@ladder-ui/tsconfig": "workspace:*",
     "@ladder-ui/utils": "workspace:*",
+    "@ladder-ui/cli": "workspace:*",
+    "@changesets/cli": "^2.26.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.4.0",

@@ -9,6 +9,11 @@
   "updateInternalDependencies": "patch",
   "ignore": [
     "docs",
-    "workshop"
+    "workshop",
+    "@ladder-ui/eslint-config",
+    "@ladder-ui/jest-config",
+    "@ladder-ui/prettier-config",
+    "@ladder-ui/tsconfig",
+    "@ladder-ui/tsup-config"
   ]
 }
