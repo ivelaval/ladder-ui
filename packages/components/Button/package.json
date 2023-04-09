@@ -2,9 +2,7 @@
   "name": "@ladder-ui/button.react",
   "version": "0.1.2",
   "description": "ladder UI: Button component for React",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "src/index.ts",
   "files": [
     "lib/**",
     "LICENSE",
@@ -14,6 +12,19 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "replace": {
+    "main": "lib/index.js",
+    "module": "lib/index.mjs",
+    "types": "lib/index.d.ts",
+    "exports": {
+      ".": {
+        "types": "./lib/index.d.ts",
+        "import": "./lib/index.mjs",
+        "require": "./lib/index.js"
+      },
+      "./package.json": "./package.json"
+    }
   },
   "scripts": {
     "build": "rm -rf lib && tsup src --dts && sass --no-source-map --style=compressed styles:lib",
@@ -34,7 +45,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivelaval/ladder-ui"
+    "url": "https://github.com/ivelaval/ladder-ui",
+    "directory": "packages/components/Button"
   },
   "bugs": {
     "url": "https://github.com/ivelaval/ladder-ui/issues"

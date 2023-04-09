@@ -1,34 +1,27 @@
 {
   "name": "@ladder-ui/cli",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "ladder UI cli",
-  "main": "./lib/index.js",
-  "module": "./lib/index.js",
-  "types": "./lib/index.d.ts",
-  "files": [
-    "lib",
-    "LICENSE",
-    "README.md"
-  ],
+  "main": "bin/index.js",
+  "bin": {
+    "lui": "./bin/index.js"
+  },
   "sideEffects": false,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "rm -rf lib && tsup src --dts",
-    "build:watch": "rm -rf lib && tsup src --dts --watch",
+    "build": "echo \"Should be set\"",
+    "build:watch": "echo \"Should be set\"",
     "test": "echo \"Should be set\"",
     "test:watch": "echo \"Should be set\"",
     "test:coverage": "echo \"Should be set\"",
-    "lint": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --cache --max-warnings=0",
-    "lint:fix": "eslint *.ts{,x} --fix"
+    "lint": "echo \"Should be set\"",
+    "lint:fix": "echo \"Should be set\""
   },
   "keywords": [
-    "react",
-    "typescript",
-    "react-library",
-    "button"
+    "cli"
   ],
   "author": "Ivan Avila (ivelavalm)",
   "license": "MIT",
