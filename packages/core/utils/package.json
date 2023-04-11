@@ -7,7 +7,11 @@
   "files": [
     "lib/**",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "*.d.ts",
+    "*.css",
+    "*.js",
+    "*.mjs"
   ],
   "sideEffects": false,
   "publishConfig": {

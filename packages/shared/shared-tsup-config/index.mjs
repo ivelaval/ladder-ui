@@ -1,13 +1,8 @@
 export default {
-  entryPoints: ['src/index.ts'],
-  entry: ['src/*.tsx', 'src/*.ts'],
+  entry: ['src'],
   outDir: 'lib',
-  clean: true,
   dts: true,
-  splitting: true,
-  sourcemap: true,
   format: ['cjs', 'esm'],
+  clean: true,
   minify: true,
-  bundle: true,
-  treeshake: true,
 };

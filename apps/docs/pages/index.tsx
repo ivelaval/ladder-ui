@@ -2,12 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 
-import '@ladder-ui/button.react/lib/Button.variables.css';
-import '@ladder-ui/button.react/lib/Button.css';
-
 import styles from '@/styles/Home.module.scss';
 
-import { Button } from '@ladder-ui/button.react';
+import '@ladder-ui/button.react/lib/Button.variables.css';
+import '@ladder-ui/button.react/lib/Button.css';
+import Button from '@ladder-ui/button.react/lib/Button';
 
 const inter = Inter({ subsets: ['latin'] });
 

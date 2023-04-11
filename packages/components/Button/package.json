@@ -5,38 +5,18 @@
   "main": "./lib/index.js",
   "module": "./lib/index.mjs",
   "types": "./lib/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./lib/index.mjs",
-      "require": "./lib/index.js",
-      "types": "./lib/index.d.ts",
-      "node": "./lib/index.js",
-      "default": "./lib/index.js"
-    },
-    "./package.json": "./package.json"
-  },
   "files": [
     "lib/**",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "*.css",
+    "*.js",
+    "*.d.ts"
   ],
   "sideEffects": false,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "replace": {
-    "main": "lib/index.js",
-    "module": "lib/index.mjs",
-    "types": "lib/index.d.ts",
-    "exports": {
-      ".": {
-        "types": "./lib/index.d.ts",
-        "import": "./lib/index.mjs",
-        "require": "./lib/index.js"
-      },
-      "./package.json": "./package.json"
-    }
   },
   "scripts": {
     "build": "rm -rf lib && tsup src --dts && sass --no-source-map --style=compressed styles:lib",
@@ -73,5 +53,8 @@
     "@types/node": "18.14.1",
     "typescript": "^4.9.5",
     "@ladder-ui/utils": "workspace:*"
+  },
+  "engines": {
+    "node": ">=12.13.0"
   }
 }
