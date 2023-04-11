@@ -3,7 +3,7 @@ import './styles/overwrite.css';
 
 import '@ladder-ui/button.react/lib/Button.variables.css';
 import '@ladder-ui/button.react/lib/Button.css';
-import Button, { IButton } from '@ladder-ui/button.react/lib/Button';
+import { Button, IButton } from '@ladder-ui/button.react';
 
 const meta = {
   title: '@ladder-ui/Button',

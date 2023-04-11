@@ -1,6 +1,6 @@
 {
   "name": "@ladder-ui/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ladder UI cli",
   "main": "bin/index.js",
   "bin": {
