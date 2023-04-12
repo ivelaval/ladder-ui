@@ -5,7 +5,10 @@
   "files": [
     "lib/**",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "*.css",
+    "*.js",
+    "*.d.ts"
   ],
   "sideEffects": false,
   "publishConfig": {
@@ -34,5 +37,8 @@
     "url": "https://github.com/ivelaval/ladder-ui/issues"
   },
   "peerDependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.13.0"
+  }
 }

@@ -6,7 +6,7 @@ import styles from '@/styles/Home.module.scss';
 
 import '@ladder-ui/button.react/lib/Button.variables.css';
 import '@ladder-ui/button.react/lib/Button.css';
-import Button from '@ladder-ui/button.react/lib/Button';
+import { Button } from '@ladder-ui/button.react';
 
 const inter = Inter({ subsets: ['latin'] });
 
