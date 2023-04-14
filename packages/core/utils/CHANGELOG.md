@@ -1,5 +1,11 @@
 # @ladder/utils
 
+## 0.1.5
+
+### Patch Changes
+
+- 146d27e: Import strategy was improved for using with destructuring or via cherry picking
+
 ## 0.1.4
 
 ### Patch Changes

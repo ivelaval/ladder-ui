@@ -1,6 +1,6 @@
 {
   "name": "@ladder-ui/button.react",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ladder UI: Button component for React",
   "main": "./lib/index.js",
   "module": "./lib/index.mjs",
@@ -46,7 +46,7 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@ladder-ui/utils": ">=0.1.4"
+    "@ladder-ui/utils": ">=0.1.5"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",

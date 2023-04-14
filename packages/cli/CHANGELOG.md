@@ -1,5 +1,11 @@
 # @ladder-ui/cli
 
+## 0.1.2
+
+### Patch Changes
+
+- 146d27e: Import strategy was improved for using with destructuring or via cherry picking
+
 ## 0.1.1
 
 ### Patch Changes

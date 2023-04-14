@@ -1,5 +1,13 @@
 # @ladder-ui/button.react
 
+## 0.1.5
+
+### Patch Changes
+
+- 146d27e: Import strategy was improved for using with destructuring or via cherry picking
+- Updated dependencies [146d27e]
+  - @ladder-ui/utils@0.1.5
+
 ## 0.1.4
 
 ### Patch Changes
