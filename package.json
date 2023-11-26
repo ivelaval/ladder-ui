@@ -34,14 +34,14 @@
     "url": "git+https://github.com/ivelaval/ladder-ui.git"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@ladder-ui/cli": "workspace:*",
     "@ladder-ui/eslint-config": "workspace:*",
     "@ladder-ui/jest-config": "workspace:*",
     "@ladder-ui/prettier-config": "workspace:*",
-    "@ladder-ui/tsup-config": "workspace:*",
     "@ladder-ui/tsconfig": "workspace:*",
+    "@ladder-ui/tsup-config": "workspace:*",
     "@ladder-ui/utils": "workspace:*",
-    "@ladder-ui/cli": "workspace:*",
-    "@changesets/cli": "^2.26.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.4.0",
@@ -83,7 +83,7 @@
     "ts-jest": "^29.1.0",
     "tslib": "^2.5.0",
     "tsup": "^6.7.0",
-    "turbo": "^1.8.3",
+    "turbo": "^1.10.16",
     "turborepo": "^0.0.1",
     "typescript": "^4.9.5"
   },
