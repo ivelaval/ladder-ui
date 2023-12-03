@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import './styles/overwrite.css';
-
 import '@ladder-ui/button.react/lib/Button.variables.css';
 import '@ladder-ui/button.react/lib/Button.css';
 import { Button, IButton } from '@ladder-ui/button.react';
@@ -28,7 +27,37 @@ export const Default: Story = {
     activateLibraryClasses: true,
     children: 'Hello world',
     className: '',
+    look: 'natural',
+    style: {},
+  } as IButton,
+};
+
+export const NoBorder: Story = {
+  args: {
+    activateLibraryClasses: true,
+    children: 'Hello world',
+    className: '',
+    look: 'no-border',
+    style: {},
+  } as IButton,
+};
+
+export const AsLink: Story = {
+  args: {
+    activateLibraryClasses: true,
+    children: 'Hello world',
+    className: '',
     look: 'as-link',
+    style: {},
+  } as IButton,
+};
+
+export const Outline: Story = {
+  args: {
+    activateLibraryClasses: true,
+    children: 'Hello world',
+    className: '',
+    look: 'outline',
     style: {},
   } as IButton,
 };
